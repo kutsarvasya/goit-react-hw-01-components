@@ -1,0 +1,32 @@
+.statistics{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+     border: 1px solid gray;
+     margin: 0 auto;
+     margin-bottom: 20px;
+     
+}
+.list{
+    display: flex;
+  
+}
+.item{
+    display: flex;
+    flex-direction: column;
+   gap: 10px;
+   width: calc(500px / 4);
+     border: 1px solid gray;
+     padding: 20px;
+     align-items: center;
+}
+.title{
+    text-align: center;
+}
+.label, .percentage {
+      font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
